@@ -54,9 +54,8 @@ ul{
     border-bottom:1rem solid $color-medBlue;
     border-top:1rem solid $color-darkBlue;
     position: relative;
-}
-.bg-header:before,
-.bg-header:after{
+
+&:before, &:after{
     content:"";
     position:absolute;
     bottom:-1rem;
@@ -64,11 +63,13 @@ ul{
     height:1rem;
     background-color: $color-darkBlue;
 }
-.bg-header:before{
+&:before{
     left:0;
 }
-.bg-header:after{
+&:after{
     right:0;
+}
+
 }
 .bg-focal{
     background-color: $color-lightBrown;
@@ -102,15 +103,15 @@ header nav>ul li{
     width:100%;
     float: none;
 }
-section.focal{
+section{
+    &.focal{
     width: 400px; /* default */
     margin: 0 auto;
 }
-section.content1{
+&.content1, &.content2{
     padding: 2rem 0;
 }
-section.content2{
-    padding:2rem 0;
+
 }
 .row{
     clear: both;

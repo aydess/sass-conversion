@@ -12,7 +12,7 @@
     }
     header h1{
         width: 100%;
-        color: #7C593C;
+        color: $color-darkBrown;
     }
     header:before,
     header:after{
@@ -20,7 +20,7 @@
     }
     header h1 i.fa-lg{
         display:inline;
-        color: #7C593C;
+        color: $color-darkBrown;
         vertical-align:baseline;
         float:none;
         font-size: 4rem;
@@ -50,12 +50,12 @@
         line-height: 2rem;
         min-height: 6rem;
         border:none;
-        border-left:1px solid #d4d4d4;
+        border-left:1px solid $color-lightGrey;
         padding:1.0rem;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li>a:last-child{
-        border-right:1px solid #d4d4d4;
+        border-right:1px solid $color-lightGrey;
     }
     section.focal,
     section.content1,
@@ -75,7 +75,7 @@
         font-size: 1.414rem;
     }
     footer .fa-circle{
-        color: #89C0C9;
+        color: $color-medBlue;
     }
     footer .col-2:last-child{
         unicode-bidi: bidi-override;
@@ -104,11 +104,11 @@
     }
     header h1{
         width: 100%;
-        color: #3a5E63;
+        color: $color-darkBlue;
     }
     header h1 i.fa-lg{
         display:inline;
-        color: #3a5E63;
+        color: $color-darkBlue;
         vertical-align:baseline;
         float:none;
         font-size: 4rem;
@@ -132,17 +132,17 @@
     header nav>ul>li{
         width:20%;
         float: left;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li>a{
         font-size: 1rem;
         line-height: 2rem;
         min-height: 2rem;
         border:none;
-        border-left:1px solid #d4d4d4;
+        border-left:1px solid $color-lightGrey;
         padding: 0 1.0rem;
         margin: 1.0rem 0;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li:first-child a{
         border-left:none;
@@ -198,7 +198,7 @@
         font-weight: 400;
     }
     footer .fa-circle{
-        color: #C9A689;
+        color: $color-lightBrown;
     }
     footer h4[lang=ru]{
        display:block;
@@ -222,11 +222,11 @@
     }
     header h1{
         width: 100%;
-        color: #7C593C;
+        color: $color-darkBrown;
     }
     header h1 i.fa-lg{
         display:inline;
-        color: #7C593C;
+        color: $color-darkBrown;
         vertical-align:baseline;
         float:none;
         font-size: 4rem;
@@ -250,17 +250,17 @@
     header nav>ul>li{
         width:20%;
         float: left;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li>a{
         font-size: 1.414rem;
         line-height: 2rem;
         min-height: 2rem;
         border:none;
-        border-left:1px solid #d4d4d4;
+        border-left:1px solid $color-lightGrey;
         padding:0 1.0rem;
         margin:1.0rem 0;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li:first-child a{
         border-left:none;
@@ -322,10 +322,10 @@
         letter-spacing: 0.2rem;
     }
     footer p:last-child{
-        color: #d4d4d4;
+        color: $color-lightGrey;
     }
     footer .fa-circle{
-        color: #89C0C9;
+        color: $color-medBlue;
     }
 
     footer h4[lang=en]{
