@@ -104,7 +104,7 @@ section.focal {
 section.content1, section.content2 {
   padding: 2rem 0; }
 
-.row {
+.row, header nav {
   clear: both; }
 
 .col-2 {
@@ -124,8 +124,7 @@ footer {
                 NAVIGATION
 ***********************************************/
 header nav {
-  padding: 2rem 0;
-  clear: both; }
+  padding: 2rem 0; }
 
 header nav > ul > li > a {
   display: block;
@@ -295,7 +294,10 @@ footer h4[lang=ru] {
 
   .col-4 {
     width: 50%;
+    margin-left: 0%;
     float: left; }
+    .col-4:first-child {
+      margin-left: 0; }
 
   section.content2 h4 {
     font-size: 1.414rem; }
@@ -387,9 +389,11 @@ footer h4[lang=ru] {
     margin: 0 auto; }
 
   .col-3 {
-    float: left;
     width: 30%;
-    margin-left: 5%; }
+    margin-left: 5%;
+    float: left; }
+    .col-3:first-child {
+      margin-left: 0; }
 
   .col-3:first-child {
     margin-left: 0; }
@@ -398,6 +402,8 @@ footer h4[lang=ru] {
     width: 22%;
     margin-left: 4%;
     float: left; }
+    .col-4:first-child {
+      margin-left: 0; }
 
   .col-4:first-child {
     margin-left: 0; }
@@ -501,9 +507,11 @@ footer h4[lang=ru] {
     margin: 0 auto; }
 
   .col-3 {
-    float: left;
     width: 30%;
-    margin-left: 5%; }
+    margin-left: 5%;
+    float: left; }
+    .col-3:first-child {
+      margin-left: 0; }
 
   .col-3:first-child {
     margin-left: 0; }
@@ -512,6 +520,8 @@ footer h4[lang=ru] {
     width: 22%;
     margin-left: 4%;
     float: left; }
+    .col-4:first-child {
+      margin-left: 0; }
 
   .col-4:first-child {
     margin-left: 0; }

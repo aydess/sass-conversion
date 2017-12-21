@@ -135,8 +135,8 @@ footer p:last-child{
                 NAVIGATION
 ***********************************************/
 header nav{
+    @extend .row;
     padding:2rem 0;
-    clear: both;
 }
 header nav>ul>li>a{
     display:block;
