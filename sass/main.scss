@@ -1,21 +1,17 @@
 // main SASS file
-/***********************************************
-                NOTES
-light blue  $color-lightBlue
-med blue    $color-medBlue
-dark blue   $color-darkBlue
-light brown $color-lightBrown
-dark brown  $color-darkBrown
-light grey  $color-lightGrey
-dark grey   $color-darkGrey
-
-                DEFAULTS
-***********************************************/
-
-
+// /***********************************************
+//                 NOTES
+// light blue  $color-lightBlue
+// med blue    $color-medBlue
+// dark blue   $color-darkBlue
+// light brown $color-lightBrown
+// dark brown  $color-darkBrown
+// light grey  $color-lightGrey
+// dark grey   $color-darkGrey
+//
+//                 DEFAULTS
 @import "variables";
-
-
+@import "mixins";
 *{
     padding:0;
     margin: 0;
