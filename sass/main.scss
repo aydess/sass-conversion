@@ -162,8 +162,8 @@ header nav>ul>li>a:hover{
 header h1{
     color: $color-darkBrown;
     letter-spacing: 0.1rem;
-}
-header h1 i.fa-lg{
+
+& i.fa-lg{
     display:block;
     width: 25%;
     float:left;
@@ -171,7 +171,7 @@ header h1 i.fa-lg{
     line-height: 12.7936rem;
     color: $color-lightBrown;
 }
-header h1 i.fa-lg ~ span{
+& i.fa-lg ~ span{
     float: right;
     width: 75%;
     font-size: 3.998rem;
@@ -181,6 +181,7 @@ header h1 i.fa-lg ~ span{
     padding-left: 1rem;
     text-align: right;
 }
+    }
 .focal h2{
     font-size: 1.999rem;
     line-height: 1.2;
